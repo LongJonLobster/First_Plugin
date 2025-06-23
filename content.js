@@ -7,7 +7,7 @@ let heavyTF2Images = [
 
 const imgs = document.getElementsByTagName("img");
 
-for (image of imgs) {
+for (let image of imgs) {
     const i = Math.floor(Math.random() * heavyTF2Images.length);
     image.src = heavyTF2Images[i];
 }
